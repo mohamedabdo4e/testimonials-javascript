@@ -1,0 +1,121 @@
+:root{
+    --mainOrange:#f15025;
+    --mainWhite:#ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('../img/cars.jpg') center/cover no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.container{
+    width: 50%;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+h3.client{
+    margin-top: 20%;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: inherit;
+    color: var(--mainOrange);
+}
+
+h1.headingme{
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size:50px;
+    margin: 2%;
+    margin-bottom: 10%;
+
+}
+
+.content-border{
+    
+    border:2px solid var(--mainWhite);
+}
+
+.image-border {
+    width: 195px;
+    height: 118px;
+    border-radius: 64%;
+    position: absolute;
+    top: 37%;
+    right: 38%;
+}
+
+.heading-border{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    text-transform: uppercase;
+   
+}
+
+.star{
+    margin-right: 1%;
+    font-size: 1.2rem;
+    color: var(--mainOrange);
+    margin-bottom: 2%;
+}
+
+.pragraph-border{
+    font-size: 20px;
+    font-family: inherit;
+    line-height: 2;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.quotes{
+    margin-bottom: 3%;
+    color: var(--mainOrange);
+}
+
+.arrow-right {
+    position: absolute;
+    top: 65%;
+    right: -7%;
+}
+
+
+.arrow-left {
+    position: absolute;
+    top: 65%;
+    left: -7%;
+}
+
+
+.arrow{
+    font-size: 30px;
+    color: var(--mainOrange);
+    border: 3px solid var(--mainOrange);
+    border-radius: 50%;
+    padding:10px 10px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color: var(--mainOrange);
+    color: var(--mainWhite);
+    transition: 0.5s all ease-in-out;
+}
